@@ -1,1 +1,1 @@
-# kubernauts-dev.github.io
+# DO NOT COMMIT TO THIS REPO MANUALLY
