@@ -1,4 +1,5 @@
 remote_theme: "mmistakes/so-simple-theme"
+
 locale: "en-us"
 title: "Kubernauts.dev"
 description: "All things Kubernetes and Developer"
@@ -18,6 +19,10 @@ google_fonts:
     weights: "400,400i,700,700i"
   - name: "Lora"
     weights: "400,400i,700,700i"
+
+
+liquid:
+  error_mode: strict
 
 copyright: "This site is made with <3 by Kubernauts.dev "
 
@@ -40,14 +45,38 @@ defaults:
       comments: true
       share: true
   # Recipe defaults
-  - scope:
-      path: "_recipes"
-      type: recipes
-    values:
-      layout: post
-      comments: true
-      share: true
+  # - scope:
+  #     path: "_recipes"
+  #     type: recipes
+  #   values:
+  #     layout: post
+  #     comments: true
+  #     share: true
 
+# Collections
+collections:
+  recipes:
+    output: true
+    permalink: /:collection/:path/
+
+
+# Site Author
+author:
+  name: Michael Rose
+  picture: /images/michael-rose-photo.jpg
+  email:
+  twitter: mmistakes
+  links:
+    - title: Twitter
+      url: https://twitter.com/mmistakes
+      icon: fab fa-twitter-square
+    - title: Instagram
+      url: https://instagram.com/mmistakes
+      icon: fab fa-instagram
+    - title: GitHub
+      url: https://github.com/mmistakes
+      icon: fab fa-github-square
+      
 # Footer Links
 footer_links:
   - title: Twitter
@@ -68,3 +97,4 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-redirect-from
