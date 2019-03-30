@@ -1,1 +1,6 @@
 remote_theme: "mmistakes/so-simple-theme"
+locale: "en-us"
+title: "Kubernauts.dev"
+description: "All things Kubernetes and Developer"
+url: "https://kubernauts.dev"
+logo: "/images/logo.png"
