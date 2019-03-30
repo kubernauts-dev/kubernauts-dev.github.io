@@ -4,3 +4,5 @@ title: "Kubernauts.dev"
 description: "All things Kubernetes and Developer"
 url: "https://kubernauts.dev"
 logo: "/images/logo.png"
+read_time: true
+words_per_minute: 200
