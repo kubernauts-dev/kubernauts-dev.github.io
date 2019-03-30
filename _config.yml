@@ -8,9 +8,9 @@ read_time: true
 words_per_minute: 200
 search_full_content: true
 disqus:
-  shortname: <hi>
+  shortname: "kubernauts-dev"
 twitter:
- username: <>
+ username: "kubernauts_dev"
 google_analytics: "UA-75855569-2"
 google_fonts:
   - name: "Source Sans Pro"
