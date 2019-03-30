@@ -1,7 +1,7 @@
 ---
 layout: home
-limit: 10
-paginate: true
+excerpt: "All things Kubernetes and Developer"
 show_excerpts: true
+paginate: true
 entries_layout: list
 ---

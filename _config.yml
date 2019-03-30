@@ -6,6 +6,7 @@ url: "https://kubernauts.dev"
 logo: "/images/logo.png"
 read_time: true
 words_per_minute: 200
+mathjax: true
 search_full_content: true
 disqus:
   shortname: "kubernauts-dev"
