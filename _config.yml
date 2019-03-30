@@ -6,3 +6,20 @@ url: "https://kubernauts.dev"
 logo: "/images/logo.png"
 read_time: true
 words_per_minute: 200
+search_full_content: true
+disqus:
+  shortname: <hi>
+twitter:
+ username: <>
+google_analytics: "UA-75855569-2"
+google_fonts:
+  - name: "Source Sans Pro"
+    weights: "400,400i,700,700i"
+  - name: "Lora"
+    weights: "400,400i,700,700i"
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-paginate
