@@ -2,7 +2,6 @@
 title: Want To Contribute ?
 layout: contribute
 permalink: /contribute/
-sitemap: false
 ---
 
 
