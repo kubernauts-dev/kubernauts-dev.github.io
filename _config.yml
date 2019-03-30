@@ -18,6 +18,8 @@ google_fonts:
   - name: "Lora"
     weights: "400,400i,700,700i"
 
+copyright: "This site is made with <3 by Kubernauts.dev "
+
 # Pagination - https://jekyllrb.com/docs/pagination/
 paginate: 10
 paginate_path: /page:num/
@@ -48,7 +50,7 @@ defaults:
 # Footer Links
 footer_links:
   - title: Twitter
-    url: https://twitter.com/kubernauts-dev
+    url: https://twitter.com/kubernauts_dev
     icon: fab fa-twitter-square
   # - title: Instagram
   #   url: https://instagram.com/mmistakes
