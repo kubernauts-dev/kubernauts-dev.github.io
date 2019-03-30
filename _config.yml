@@ -19,23 +19,23 @@ google_fonts:
     weights: "400,400i,700,700i"
 
 # Front Matter Defaults
-defaults:
-  # Post defaults
-  - scope:
-      path: "_posts"
-      type: posts
-    values:
-      layout: post
-      comments: true
-      share: true
-  # Recipe defaults
-  - scope:
-      path: "_recipes"
-      type: recipes
-    values:
-      layout: post
-      comments: true
-      share: true
+# defaults:
+#   # Post defaults
+#   - scope:
+#       path: "_posts"
+#       type: posts
+#     values:
+#       layout: post
+#       comments: true
+#       share: true
+#   # Recipe defaults
+#   - scope:
+#       path: "_recipes"
+#       type: recipes
+#     values:
+#       layout: post
+#       comments: true
+#       share: true
       
 plugins:
   - jekyll-seo-tag
