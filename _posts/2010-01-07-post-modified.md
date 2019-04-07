@@ -6,6 +6,21 @@ tags:
   - Post Formats
   - readability
   - standard
+author:
+  name: Michael Rose12234
+  picture: /images/michael-rose-photo.jpg
+  email:
+  twitter: mmistakes
+  links:
+    - title: Twitter
+      url: https://twitter.com/mmistakes
+      icon: fab fa-twitter-square
+    - title: Instagram
+      url: https://instagram.com/mmistakes
+      icon: fab fa-instagram
+    - title: GitHub
+      url: https://github.com/mmistakes
+      icon: fab fa-github-square
 last_modified_at: 2017-03-09T13:01:27-05:00
 ---
 
