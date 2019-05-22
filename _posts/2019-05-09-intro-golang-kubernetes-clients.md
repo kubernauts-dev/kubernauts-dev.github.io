@@ -27,6 +27,7 @@ If you want to try out or write simple scripts, you can use following and get `c
 go get k8s.io/client-go
 ```
 
+Note: `k8s.io/..` is just an alias to `github.com/kubernetes/..`, no need to confuse :D
 
 
 In upcoming blog post, we will see how we can use `client-go` effectively to talk to cluster and create some tools using it.
