@@ -1,5 +1,5 @@
 ---
-title: "Talking to the Kubernetes cluster from outside"
+title: "Talking to the Kubernetes cluster from inside"
 categories:
   - Introduction
 tags:
