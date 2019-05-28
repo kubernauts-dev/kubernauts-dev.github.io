@@ -1,14 +1,14 @@
 ---
-title: "Exploring packages from golang client"
+title: "Exploring packages from Golang client"
 categories:
   - Introduction
 tags:
-  - kubernetes
+  - Kubernetes
   - client
-  - golang
+  - Golang
 ---
 
-In [last blog post](https://kubernauts.dev/introduction/2019/04/07/intro-kubernetes-clients.html), we learnt about golang kubernetes client and various ways of installing it.
+In [last blog post](https://kubernauts.dev/introduction/2019/04/07/intro-kubernetes-clients.html), we learnt about Golang kubernetes client and various ways of installing it.
 
 There are various packages which will be used for most of the times during development.
 
@@ -24,6 +24,6 @@ Along `with client-go`, there are other important repositories like:
 
 * [`kubernetes/api`](https://github.com/kubernetes/api) which contains Go types of Kubernetes resources.
 
-* [`kubernetes/apimachinery`](https://github.com/kubernetes/apimachinery) contains building blocks like schemes, encoding, decoding, coversion, etc.
+* [`kubernetes/apimachinery`](https://github.com/kubernetes/apimachinery) contains building blocks like schemes, encoding, decoding, conversion, etc.
 
-Now we are familiar with golang client and other important repositories, let's see how we can talk to cluster using all those in next blog post.
+Now we are familiar with Golang client and other important repositories, let's see how we can talk to the cluster using all those in the next blog post.

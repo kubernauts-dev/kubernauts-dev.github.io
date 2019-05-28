@@ -1,15 +1,15 @@
 ---
-title: "Talking to kubernetes cluster from outside"
+title: "Talking to the Kubernetes cluster from outside"
 categories:
   - Introduction
 tags:
-  - kubernetes
+  - Kubernetes
   - client
-  - golang
+  - Golang
 ---
 
 
-With reference to previous blog post, we are importing `clientcmd` package to work on kubeconfig which contains essential information like cluster URL, namespace,auth details to talk to cluster.
+With reference to the previous blog post, we are importing `clientcmd` package to work on kubeconfig which contains essential information like cluster URL, namespace, auth details to talk to cluster.
 
 ```
 import k8s.io/client-go/tools/clientcmd
@@ -21,11 +21,11 @@ import k8s.io/client-go/tools/clientcmd
 config, err := clientcmd.BuildConfigFromFlags("", kubeconfigPath)
 ```
  
-if nothing (master URL or kubeconfig filepath) is provided, then it will fallback to `inClusterConfig` which we will see in next blog post.
+if nothing (master URL or kubeconfig file path) is provided, then it will fallback to `inClusterConfig` which we will see in the next blog post.
 
-if `err` is occured that means, kubeconfig is not parsed properly or `kubeconfigPath` is not correct.
+if `err` is occurred that means, kubeconfig is not parsed properly or `kubeconfigPath` is not correct.
 
-`config` is of type [`rest.Config`](https://github.com/kubernetes/client-go/blob/master/rest/config.go#L52) (coming from [`k8s.io/client-go/rest`](https://github.com/kubernetes/client-go/rest)) which then used to create actual clientsets. we will see that in upcoming blogposts.
+`config` is of type [`rest.Config`](https://github.com/kubernetes/client-go/blob/master/rest/config.go#L52) (coming from [`k8s.io/client-go/rest`](https://github.com/kubernetes/client-go/rest)) which then used to create actual clientsets. we will see that in upcoming blog posts.
 
 
 if you just want to play around kubeconfig, you can also use,
